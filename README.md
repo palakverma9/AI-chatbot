@@ -54,10 +54,12 @@ Open index.html in the browser.
 
 ## 💬 Sample Bot Replies (Based on What You Type)
 
-hi / hello    --             Hey bestie! 💖 How can I help you today?/
-how are you	  --             I'm doing amazing! Hope you're feeling great 😊/
-help / support	 --          I'm here for you! What do you need help with? 💬/
-anything else	   --          You said: "<your message>". I'm just a simple support bot 💼
+- hi / hello    --             Hey bestie! 💖 How can I help you today?/
+- how are you	  --             I'm doing amazing! Hope you're feeling great 😊/
+- help / support	 --          I'm here for you! What do you need help with? 💬/
+- anything else	   --          You said: "<your message>". I'm just a simple support bot 💼
+
+**Note❗**: I originally intended to integrate OpenAI's API to power the chatbot’s responses. However, due to quota limitations on the API key, I proceeded with a logic-based mock chatbot to demonstrate the proof of concept.
 
 
 

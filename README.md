@@ -54,11 +54,10 @@ Open index.html in the browser.
 
 ## 💬 Sample Bot Replies (Based on What You Type)
 
-What You Type	                  Bot Reply
-hi / hello	                    Hey bestie! 💖 How can I help you today?
-how are you	                    I'm doing amazing! Hope you're feeling great 😊
-help / support	                I'm here for you! What do you need help with? 💬
-anything else	                  You said: "<your message>". I'm just a simple support bot 💼
+hi / hello    --             Hey bestie! 💖 How can I help you today?
+how are you	  --             I'm doing amazing! Hope you're feeling great 😊
+help / support	 --          I'm here for you! What do you need help with? 💬
+anything else	   --          You said: "<your message>". I'm just a simple support bot 💼
 
 
 

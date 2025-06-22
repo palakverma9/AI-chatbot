@@ -1,36 +1,64 @@
-# AI-chatbot
-AI-powered chatbot project
-A simple and elegant AI-powered chatbot built using **Node.js** , **Express** , and **HTML/CSS** , desgined to simulate human-like conversations. This chatbot is capable of responding to user input with either fixed responses or using OpenAI's API for smart replies (when enabled).
+# 🖤 BestieBot — An AI-Powered Customer Support Chatbot 
+
+**BestieBot** is a fun and simple chatbot made to act like a friendly companion. It responds to your messages using fixed replies and was built as a sample project for the Godspeed internship.
 
 ---
 
-## Features 
-- Real-time messaging
-- Backend with dummy/fixed responses
-- Clean black & white gradient UI
-- Backend built with Node.js + Express
-- "Bot is typing..." animation
-I initially intended to integrate OpenAI's GPT-3.5 model to generate dynamic responses using the OpenAI API. However, due to exceeding the free-tier quota limits, I was unable to proceed with the integration.
+## 🛠️ Tech Stack
 
-As a workaround, this version uses fixed responses handled through conditional logic in the Express server.
+- **Frontend**: HTML, CSS, Vanilla JavaScript  
+- **Backend**: Node.js, Express.js  
+- **API (Planned)**: OpenAI GPT-3.5 API  
+- **Dev Tools**: dotenv, CORS, Git
+
 ---
 
-## Project Structure
+## ✨ Features
+
+💬 Chat interface with a fun typing animation
+🧠 Gives replies using simple fixed messages
+🎨 Dark theme with a friendly and cool design
+🚀 Easy to run on your own computer
+
+---
+
+## 📁 File Structure
 AI_ChatBot_Godspeed/
-├── index.html # Frontend UI
-├── server.js # Node.js backend server
-├── package.json # Project dependencies
-├── .env # (Not included) Stores OpenAI API Key
-└── .gitignore # Prevents uploading node_modules and .env
+├── index.html # Chatbot frontend
+├── server.js # Node.js backend
+├── .env # (Optional) OpenAI API key
+├── package.json
+└── README.md
 
 ---
 
-## Getting Started 
-- to clone the repo
-git clone https://github.com/your-username/AI-chatbot.git
-cd AI-chatbot
+## ⚙️ Getting Started
 
-- install dependencies
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/AI_ChatBot_Godspeed.git
+cd AI_ChatBot_Godspeed
+```
+
+### 2. Install Dependencies
+```bash
 npm install
+```
+
+### 3. Start the server
+```bash
+node server.js
+```
+### 4. Launch the frontend
+Open index.html in the browser.
+
+## 💬 Sample Bot Replies (Based on What You Type)
+
+What You Type	                  Bot Reply
+hi / hello	                    Hey bestie! 💖 How can I help you today?
+how are you	                    I'm doing amazing! Hope you're feeling great 😊
+help / support	                I'm here for you! What do you need help with? 💬
+anything else	                  You said: "<your message>". I'm just a simple support bot 💼
+
 
 

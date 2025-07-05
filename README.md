@@ -79,10 +79,8 @@ text
 - Never share your `.env` file or API keys publicly.
 - `.env` is already in `.gitignore` for your safety.
 
-## Credits & License
+## Credits
 
 - Built for the Godspeed internship challenge.
-- Powered by Google Gemini.
-- MIT License.
 
 If you like this project, star the repo and share your feedback.

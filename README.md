@@ -1,65 +1,88 @@
-# 🖤 BestieBot — An AI-Powered Customer Support Chatbot 
+# BestieBot 🖤 — An AI-Powered Customer Support Chatbot
+BestieBot is a friendly and intelligent chatbot designed to act as your supportive companion. Powered by Google Gemini (free API), it responds to your messages with real AI-generated replies. This project is ideal as a learning tool, a portfolio piece, or a foundation for your own chatbot ideas.
 
-**BestieBot** is a fun and simple chatbot made to act like a friendly companion. It responds to your messages using fixed replies and was built as a sample project for the Godspeed internship.
+## Features
 
----
+- Real AI chat: Gemini-powered responses for every message.
+- Modern UI: Clean, dark-themed chat interface.
+- Easy to use: Send messages by pressing Enter or clicking Send.
+- Fast and free: Uses Google Gemini’s free API tier.
+- Secure: API keys managed with dotenv.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Frontend**: HTML, CSS, Vanilla JavaScript  
-- **Backend**: Node.js, Express.js  
-- **API (Planned)**: OpenAI GPT-3.5 API  
-- **Dev Tools**: dotenv, CORS, Git
+- Frontend: HTML, CSS, Vanilla JavaScript
+- Backend: Node.js, Express.js
+- AI API: Google Gemini (via [@google/generative-ai](https://www.npmjs.com/package/@google/generative-ai))
+- Dev Tools: dotenv, CORS, Git
 
----
+## File Structure
 
-## ✨ Features
-
-💬 Chat interface with a fun typing animation
-🧠 Gives replies using simple fixed messages
-🎨 Dark theme with a friendly and cool design
-🚀 Easy to run on your own computer
-
----
-
-## 📁 File Structure
-AI_ChatBot_Godspeed/
+ai_chatbot_godspeed/
 ├── index.html # Chatbot frontend
-├── server.js # Node.js backend
-├── .env # (Optional) OpenAI API key
+├── server.js # Node.js backend (Express + Gemini)
+├── .env # Your Gemini API key (not committed)
 ├── package.json
+├── package-lock.json
 └── README.md
 
----
+## Getting Started
 
-## ⚙️ Getting Started
+### 1. Clone the Repo
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/<your-username>/AI_ChatBot_Godspeed.git
-cd AI_ChatBot_Godspeed
-```
+git clone https://github.com/<your-username>/ai_chatbot_godspeed.git
+cd ai_chatbot_godspeed
+
+text
 
 ### 2. Install Dependencies
-```bash
+
 npm install
-```
 
-### 3. Start the server
-```bash
+text
+
+### 3. Set Up Your Gemini API Key
+
+- Get a free API key from Google AI Studio (https://aistudio.google.com/).
+- Create a `.env` file in your project root:
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+
+text
+
+### 4. Start the Backend Server
+
 node server.js
-```
-### 4. Launch the frontend
-Open index.html in the browser.
 
-## 💬 Sample Bot Replies (Based on What You Type)
+text
 
-- hi / hello    --             Hey bestie! 💖 How can I help you today?/
-- how are you	  --             I'm doing amazing! Hope you're feeling great 😊/
-- help / support	 --          I'm here for you! What do you need help with? 💬/
-- anything else	   --          You said: "<your message>". I'm just a simple support bot 💼
+### 5. Launch the Frontend
 
-**Note❗**: I originally intended to integrate OpenAI's API to power the chatbot’s responses. However, due to quota limitations on the API key, I proceeded with a logic-based mock chatbot to demonstrate the proof of concept.
+- Open `index.html` directly in your browser.
 
+## Usage
 
+- Type your message and press Enter or click Send.
+- The bot will reply instantly with an AI-generated response.
+- Try greetings, questions, or even jokes.
 
+## Sample Interactions
+
+| You                     | BestieBot (AI)                                |
+|-------------------------|-----------------------------------------------|
+| hi                      | Hello! How can I help you today?              |
+| how are you?            | I'm doing well. Hope you're feeling great too.|
+| tell me a joke          | Why did the robot go on a diet? Because it had too many bytes! |
+| what is generative AI?  | Generative AI refers to artificial intelligence that can create new content, such as text, images, or music, based on prompts. |
+
+## Security Note
+
+- Never share your `.env` file or API keys publicly.
+- `.env` is already in `.gitignore` for your safety.
+
+## Credits & License
+
+- Built for the Godspeed internship challenge.
+- Powered by Google Gemini.
+- MIT License.
+
+If you like this project, star the repo and share your feedback.

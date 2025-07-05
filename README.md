@@ -20,7 +20,7 @@ BestieBot is a friendly and intelligent chatbot designed to act as your supporti
 
 ai_chatbot_godspeed/
 ├── index.html # Chatbot frontend
-├── server.js # Node.js backend (Express + Gemini)
+├── index.js # Node.js backend (Express + Gemini)
 ├── .env # Your Gemini API key (not committed)
 ├── package.json
 ├── package-lock.json
@@ -51,7 +51,7 @@ text
 
 ### 4. Start the Backend Server
 
-node server.js
+node index.js
 
 text
 
